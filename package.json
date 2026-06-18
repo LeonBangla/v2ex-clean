@@ -1,0 +1,13 @@
+{
+  "name": "v2ex-clean",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-rss.mjs"
+  },
+  "dependencies": {
+    "rss": "^1.2.2",
+    "rss-parser": "^3.13.0"
+  }
+}
